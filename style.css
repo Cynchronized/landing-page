@@ -1,0 +1,70 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+a, p {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-self: center;
+    margin-right: 20px;
+    gap: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+img {
+    border-radius: 25px;
+}
+
+button {
+    background-color: #3882F6;
+    font-weight: bold;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 12px;
+    padding: 10px;
+    width: 100px;
+}
+
+
+.top {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.mainsignup {
+    display: flex;
+    justify-content: space-around;
+}
+
+.leftside {
+    flex-wrap: wrap;
+    width: 500px;
+}
+
+
+.maincontent {
+    display: flex;
+    padding: 75px;
+    gap: 50px;
+}
+
