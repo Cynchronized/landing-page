@@ -88,6 +88,24 @@ button {
     border: 5px solid #3882F6;
 }
 
+#signup {
+    display: flex;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 100px;
+    width: 1150px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#signup button {
+    border: 1px solid #F9FAF8;
+    height: 50px;
+    width: 100px;
+}
+
 #header {
     display: flex;
     justify-content: space-between;
